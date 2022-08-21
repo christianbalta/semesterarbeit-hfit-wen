@@ -1,0 +1,14 @@
+.gs__form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gs__form-heading {
+    color: white;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.gs__input-container {
+    color: white;
+}
