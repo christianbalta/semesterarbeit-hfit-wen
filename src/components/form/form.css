@@ -1,14 +1,36 @@
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+}
+
 .gs__form-container {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    background-color: var(--color-footer);
+}
+
+.gs__m-50 {
+    margin: 50px;
 }
 
 .gs__form-heading {
-    color: white;
     text-align: center;
     font-family: var(--font-family);
+    font-size: 62px;
+    line-height: 75px;
 }
 
 .gs__input-container {
     color: white;
+}
+
+.gs__radio-buttons input {
+    margin: 0 30px;
+}
+
+.gs__selectedGame-text {
+    font-size: 25px;
 }

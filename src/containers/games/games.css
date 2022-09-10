@@ -1,3 +1,12 @@
+.pointer {
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.pointer:hover {
+    transform: scale(1.1);
+}
+
 .gs__games {
     display: flex;
     flex-direction: column;    
@@ -32,6 +41,28 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+}
+
+.gs__button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: #000000;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 16px;
+    text-align: center;
+    width: 85%;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 990px) {
